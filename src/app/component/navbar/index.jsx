@@ -43,16 +43,16 @@
                    className="block text-white hover:text-[#D4D4D4]"
                    onClick={toggleMenu}
                  >
-                   Pricing
+                  Problem statement
                  </Link>
                </li>
                <li>
                  <Link
-                   href="#faq"
+                   href="#benefit"
                    className="block text-white hover:text-[#D4D4D4]"
                    onClick={toggleMenu}
                  >
-                   FAQ
+                   Benefits
                  </Link>
                </li>
              </ul>
@@ -70,7 +70,7 @@
            </Link>
          </li>
          <li>
-           <Link href="#pricing" className="text-white hover:text-[#D4D4D4]">
+           <Link href="#benefit" className="text-white hover:text-[#D4D4D4]">
            Benefits
            </Link>
          </li>
