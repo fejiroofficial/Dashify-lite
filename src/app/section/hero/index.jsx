@@ -8,17 +8,17 @@ import bolt from "@/app/asset/svg/bolt.svg";
 
 const Hero = () => {
   return (
-    <section className="hero container mx-auto relative flex flex-col items-center justify-center text-center w-full lg:mb-8 px-4 pb-8 lg:pb-16">
+    <section className="hero container mx-auto relative overflow-hidden flex flex-col items-center justify-center text-center w-full lg:mb-8 px-4 pb-8 lg:pb-16">
       <div className="relative z-10 items-center">
-        <div className="absolute top-[4rem] left-[-10rem] justify-between hidden lg:block">
+        <div className="absolute top-[4rem] left-[-10%] justify-between hidden lg:block">
           <Image src={icon} alt="icon" className="" />
         </div>
-        <div className="absolute top-[4rem] right-[-10rem] justify-between hidden lg:block">
+        <div className="absolute top-[4rem] right-[-10%] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h2 className="pt-8 leading-tight mb-4 lg:pt-0 text-center flex-wrap text-[30px] md:text-[40px] lg:text-[84px] font-normal mx-auto">
+        <h1 className="leading-[1.1] mb-4 lg:leading-tight lg:pt-0 text-center flex-wrap text-[40px] lg:text-[84px] font-normal mx-auto">
           Create Powerful AI <br /> Dashboards Using prompt
-        </h2>
+        </h1>
 
         <p className="mb-8 flex-wrap px-6 lg:px-0 pb-6 text-[16px] md:text-xl text-[#D4D4D4]">
           Seamless integration with <br />
@@ -31,7 +31,7 @@ const Hero = () => {
             alt="bg-icon"
             className="absolute top-[-2rem] right-[2.6rem] z-10 hidden lg:block"
           />
-          <div className="relative flex flex-col items-center bg-[#F3F3F3] text-black gap-8 rounded-[24px] mt-10 h-auto lg:h-[416px] px-16 overflow-hidden w-full md:w-full mx-auto max-w-[745px]">
+          <div className="relative flex flex-col items-center bg-[#F3F3F3] text-black gap-8 rounded-[24px] mt-10 h-auto px-6 lg:h-[416px] lg:px-16 overflow-hidden w-full md:w-full mx-auto max-w-[745px]">
             <div className="flex pt-3 w-full">
               <Image src={star} alt="star-icon" className="absolute left-2" />
             </div>
@@ -44,12 +44,12 @@ const Hero = () => {
                 ebook on product management resources
               </p>
             </div>
-            <div className="flex flex-col gap-4 pb-6 justify-end items-end text-[#545454] ">
+            <div className="w-full flex flex-col items-center gap-4 pb-6 text-[#545454] ">
               <input
                 placeholder="Enter your best Email"
                 className="w-full lg:w-[408px] h-auto lg:h-[50px] outline-none p-4 bg-[#F8F8F8] rounded-lg"
               />
-              <button className="flex flex-col justify-center bg-black text-white w-full md:w-[408px] md:h-[63px] rounded-lg text-[18px]">
+              <button className="flex flex-col justify-center bg-black text-white w-full lg:w-[408px] h-[63px] rounded-lg text-[18px]">
                 <span className="block leading-[24px]">
                   {" "}
                   Sign up for Waitlist{" "}

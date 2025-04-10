@@ -17,16 +17,19 @@ function WaitList() {
             on product management resources
           </p>
         </div>
-        <div className="flex flex-col gap-2 pb-6 justify-end items-end">
-          <input
-            placeholder="Enter your best Email"
-            className="w-full bg-[#F8F8F8] lg:w-[408px] h-auto lg:h-[50px] outline-none p-4"
-          />
-          <button className="flex flex-col justify-center bg-black text-white w-full md:w-[408px] md:h-[63px] rounded-lg text-[18px]">
-            <span className="block leading-[24px]"> Sign up for Waitlist </span>
-            <span className="text-[12px]">Free ebook inclusive</span>
-          </button>
-        </div>
+        <div className="w-full flex flex-col items-center gap-4 pb-6 text-[#545454] ">
+              <input
+                placeholder="Enter your best Email"
+                className="w-full lg:w-[408px] h-auto lg:h-[50px] outline-none p-4 bg-[#F8F8F8] rounded-lg"
+              />
+              <button className="flex flex-col justify-center bg-black text-white w-full lg:w-[408px] h-[63px] rounded-lg text-[18px]">
+                <span className="block leading-[24px]">
+                  {" "}
+                  Sign up for Waitlist{" "}
+                </span>
+                <span className="text-[12px]">Free ebook inclusive</span>
+              </button>
+            </div>
       </div>
     </div>
   );

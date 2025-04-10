@@ -4,6 +4,7 @@
  import menu from "@/app/asset/svg/menu.svg";
  import Image from "next/image";
  import Link from "next/link";
+ import Button from "@/app/component/button";
  
  const Navbar = () => {
    const [isMenuOpen, setMenuOpen] = useState(false);
