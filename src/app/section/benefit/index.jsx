@@ -8,13 +8,13 @@ import Card from "@/app/component/card";
  const Benefit = () => {
    return (
      <section
-       id="features"
+       id="benefit"
        className="container mx-auto relative flex flex-col justify-center items-center text-center px-6 w-full pb-16"
      >
        <div className="absolute top-[70%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-[753px] h-[753px] rounded-full bg-white blur-[460px] -z-10"></div>
        <div className="py-16">
          <h2 className='text-[32px] md:text-[48px] font-medium tracking-tight'>Benefits </h2>
-         <p className="text-[18px] md:text-[20px]">
+         <p className="text-[16px] md:text-[20px]">
            Watch as your scattered data transforms into clear, actionable
            insights. <br/> No code. No waiting. No hassle
          </p>
