@@ -65,7 +65,7 @@
  
          <li>
            <Link href="#HowItWorks" className="text-white hover:text-[#D4D4D4]">
-           Problem statementee 
+           Problem statement
            </Link>
          </li>
          <li>

@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute top-[4rem] right-[-10rem] justify-between hidden lg:block">
           <Image src={leftIcon} alt="icon" />
         </div>
-        <h2 className="pt-8 lg:pt-0 text-center flex-wrap text-[30px] md:text-[40px] lg:text-[84px] font-normal mx-auto">
+        <h2 className="pt-8 leading-tight mb-4 lg:pt-0 text-center flex-wrap text-[30px] md:text-[40px] lg:text-[84px] font-normal mx-auto">
           Create Powerful AI <br /> Dashboards Using prompt
         </h2>
 
